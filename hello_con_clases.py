@@ -12,7 +12,10 @@ class Ventana(tk.Tk):
         nombre = tk.Entry(self, textvariable=self.valor_nombre)
         nombre.pack()
         boton = tk.Button(self, text ="Púlsame", command= self.imprimir_saludo)
+
         boton.pack()
+
+    
         
     def imprimir_saludo(self):
         self.label.config(text=f"Hola, {self.valor_nombre.get()}")
