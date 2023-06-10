@@ -9,7 +9,7 @@ operaciones = {
     "+": lambda a, b: a + b,
     "-": lambda a, b: a - b,
     "x": lambda a, b: a * b,
-    "÷": lambda a, b: a / b
+    "÷": lambda a, b: a // b
 
 }
 
